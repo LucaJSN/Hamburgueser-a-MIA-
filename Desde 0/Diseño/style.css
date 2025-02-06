@@ -1,0 +1,143 @@
+body{
+    background-image: url(../Imagenes/Black\ Orange\ Grunge\ Burger\ Menu.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.encabezado{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff4500;
+    font-size: 2vh;
+}
+
+.titulo{
+    color: #ff4500;
+    font-family: Georgia;
+    font-size: 3.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlace-menu{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilo-menu{
+    color: #ff4500;
+    display: flex;
+    gap: 20px;
+    font-size: 2vh;
+}
+
+.estilo-precio{
+    color: white;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+}
+
+.contenedor img{
+    width: 100%;
+    display: block;
+}
+
+.texto-superpuesto{
+    position: absolute;
+    top: -20%; /* Centrar verticalmente */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translate(-50%, -50%); /* Ajustar el centro */
+    color: #ff4500;
+    font-size: 9.2vh;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0); /* Fondo oscuro semitransparente */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Georgia;
+}
+
+.formato-logo {
+    width: 100px;  /* Ancho fijo */
+    height: auto;  /* Mantiene la proporción */
+}
+
+.formato-promos{
+    width: 40vh;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.alinear-promos{
+    display: flex;
+    justify-content: center;
+}
+
+.galeria{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding: 10px;
+    scrollbar-width: none;
+}
+
+.galeria img{
+    width: 40vh;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+/* .torn-page {
+    width: 400px;
+    height: 600px;
+    background: url('../Imagenes/fondo-util.jpg') no-repeat center/cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 95% 85%, 90% 78%, 85% 83%, 80% 75%, 75% 82%, 70% 77%, 65% 83%, 60% 78%, 55% 85%, 50% 80%, 45% 85%, 40% 78%, 35% 83%, 30% 75%, 25% 82%, 20% 77%, 15% 83%, 10% 78%, 5% 85%, 0% 80%);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+Estilo para hacer una pagina suelta como recuadro:
+
+.pagina{
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pagina::before,
+.pagina::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    z-index: -1;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pagina::before{
+    left: -5px;
+    transform: rotate(-3deg);
+}
+
+.contenido{
+    padding: 20px;
+    text-align: center;
+}*/
